@@ -1,0 +1,85 @@
+/* STYLE SECTIONING TAGS */
+body {
+ background-color: lightcyan; 
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: navy;
+}
+
+h2 {
+  color:#225daa;
+}
+
+h4 {
+   color: #a4bbdf;
+ }
+
+button {
+  background-color: #3171c4; /* Green */
+  color: white;
+  border-radius: 4px;
+  border: 2px solid #a4bbdf;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+button:hover:not(.active) {
+  background-color: #176e6e;
+}
+
+div.hobbycontainer {
+  text-align: center;
+}
+
+ul.hobbyUL {
+  display: inline-block;
+  text-align: left;
+}
+
+
+div.favoritescontainer {
+  text-align: center;
+}
+
+ul.favoritesUL {
+  display: inline-block;
+  text-align: left;
+}
+
+/* STYLE IMAGES */
+
+img {
+    border-radius: 50%;
+}
+
+/* STYLE NAV BAR */
+
+nav {
+background-color: #004182;
+padding: 20px 60px
+}
+
+a {
+  display: inline;
+  color: #a4bbdf;
+  background-color: #004182;
+  text-align: center;
+  padding: 20px 60px;
+  text-decoration: none;
+}
+
+
+a.active {
+  background-color: #105b75;
+}
+
+a:hover:not(.active) {
+  background-color: #003166;
+}
+
+
